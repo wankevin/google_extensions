@@ -1,0 +1,59 @@
+.grid_zone{
+    display:grid;
+    height:90px;
+    width:350px;
+}
+.grid_zone>div{
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border:1px solid gray;
+    border-radius:10px;
+    margin-top:5px;
+    padding-left:9px;
+    background-color:rgb(66, 160, 255);
+    color:white;
+}
+.grid_zone>div>div{
+    margin-top:10px;
+}
+.title{
+   font-size: 20px;
+}
+input{
+    width:50px;
+}
+.transfer_label {
+  font-size: 20px;
+  font-weight:bold;
+
+}
+.normal{
+  width:170px;
+  font-size: 18px;
+  display: inline-block;
+  font-weight:bold;
+  color:black;
+}
+.input_zone{
+  width:160px;
+  font-size: 14px;
+  font-weight:bold;
+}
+h1{
+   margin:0px 0px 5px 0px;
+}
+.zone1_label{
+  width:90px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight:bold;
+
+}
+body{
+ font-family:Calibri;
+}
+.copy_button{
+  width:60px;
+  display: inline-block;
+}

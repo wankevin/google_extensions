@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unix timestamp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="grid_zone">
+    <h1>Timestamp Generator</h1>
+    <label class="title">Current Time</label>
+    <div >
+        <div>
+            <label class="zone1_label">Date Time</label>
+            <label id="current_timestamp" class="normal">&emsp;</label>
+            <button id="copy_datetime" class="copy_button">Copy</button>
+            <br>
+            <label class="zone1_label">Timestamp</label>
+            <label id="current_datetime" class="normal">&emsp;</label>
+            <button id="copy_timestamp" class="copy_button">Copy</button>
+
+        </div>
+    </div>
+
+    <label class="title">Timestamp to Datetime</label>
+    <div>
+        <div>
+            <label class="zone1_label">Timestamp</label>
+            <input id="input_timestamp" class="input_zone" placeholder="timestamp">
+            <button id="button_timestamp" class= >transfer</button>
+            <label class="zone1_label">Date Time</label>
+            <label id="transfer_datetime" class="transfer_label"></label>
+        </div>
+    </div>
+
+    <label class="title">Datetime to Timestamp</label>
+    <div>
+        <div>
+            <label class="zone1_label">Datetime</label>
+            <input id="input_datetime" class="input_zone" placeholder="YYYY/MM/DD hh/mm/ss">
+            <button id="button_datetime" class=>transfer</button>
+            <label class="zone1_label">Timestamp</label>
+            <label id="transfer_timestamp" class="transfer_label"></label>
+        </div>
+    </div>
+</div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

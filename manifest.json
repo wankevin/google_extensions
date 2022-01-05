@@ -1,0 +1,10 @@
+{
+  "name": "Unix timestamp",
+  "version": "1.1",
+  "manifest_version": 2,
+  "background": {
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
